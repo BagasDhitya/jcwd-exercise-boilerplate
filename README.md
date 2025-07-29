@@ -26,6 +26,7 @@ Each folder or file in this repository corresponds to a specific exercise in Mod
 ## 🧑‍💻 Student Task
 
 Students should:
+
 - Analyze the UI design and understand the expected behavior
 - Implement the logic (e.g. form handling, state updates, validations, etc.)
 - Use the UI components as a reference or starting point
@@ -42,3 +43,4 @@ git clone https://github.com/your-org/jcwd-module02-ui-boilerplate.git
 cd jcwd-module02-ui-boilerplate
 npm install
 npm run dev
+```
