@@ -39,7 +39,7 @@ Students should:
 4. Start coding the logic based on the UI provided
 
 ```bash
-git clone https://github.com/your-org/jcwd-module02-ui-boilerplate.git
+git clone https://github.com/BagasDhitya/jcwd-exercise-boilerplate.git
 cd jcwd-module02-ui-boilerplate
 npm install
 npm run dev
