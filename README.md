@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JCWD Module 02 – UI Exercise Boilerplate
 
-## Getting Started
+This repository contains the **UI design boilerplate** for exercises in **Module 02: Frontend Development** of the JCWD (Job Connector Web Development) program.
 
-First, run the development server:
+## 📌 Purpose
+
+The main purpose of this boilerplate is to provide a ready-to-use **user interface (UI)** reference for each exercise. Students are expected to focus on implementing the **functionality and business logic**, based on the provided design.
+
+## 📁 Structure
+
+Each folder or file in this repository corresponds to a specific exercise in Module 02. The UI elements are pre-built and styled using modern tools (e.g. Tailwind CSS, Material UI, etc. depending on the module setup).
+
+## ✅ What’s Included
+
+- Pre-built HTML/JSX UI components
+- Styling using Tailwind CSS (or as instructed in the module)
+- Folder structure aligned with the exercise instructions
+- Static data placeholders (if needed)
+
+## 🚫 What’s Not Included
+
+- No business logic or interactivity
+- No state management or API calls
+- No backend integration
+
+## 🧑‍💻 Student Task
+
+Students should:
+- Analyze the UI design and understand the expected behavior
+- Implement the logic (e.g. form handling, state updates, validations, etc.)
+- Use the UI components as a reference or starting point
+
+## 📦 How to Use
+
+1. Clone this repository
+2. Install dependencies (if any)
+3. Navigate to the specific exercise directory
+4. Start coding the logic based on the UI provided
 
 ```bash
+git clone https://github.com/your-org/jcwd-module02-ui-boilerplate.git
+cd jcwd-module02-ui-boilerplate
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
