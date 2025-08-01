@@ -9,11 +9,11 @@ export default function Home() {
 
             <div className="w-full max-w-md mt-6 space-y-2">
                 {/* TODO: Replace hardcoded items with mapped state list */}
-                <TodoItem text="Buy Grocery" completed />
-                <TodoItem text="Send Emails" />
-                <TodoItem text="Go to Gym" />
-                <TodoItem text="Study React" />
-                <TodoItem text="Write Blog Post" />
+                <TodoItem id='1' text="Buy Grocery" completed />
+                <TodoItem id='2' text="Send Emails" />
+                <TodoItem id='3' text="Go to Gym" />
+                <TodoItem id='4' text="Study React" />
+                <TodoItem id='5' text="Write Blog Post" />
             </div>
         </main>
     );

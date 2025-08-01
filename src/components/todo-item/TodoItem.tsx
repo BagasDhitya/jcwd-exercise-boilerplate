@@ -3,13 +3,14 @@
 import { Edit, Delete } from '@/components/icons/icons';
 
 interface TodoItemProps {
+    id: string;
     text: string;
     completed?: boolean;
 }
 
-export default function TodoItem({ text, completed = false }: TodoItemProps) {
+export default function TodoItem({ id, text, completed = false }: TodoItemProps) {
     return (
-        <div className="flex items-center justify-between p-3 bg-white rounded-xl shadow-sm border mb-2">
+        <div id={id} className="flex items-center justify-between p-3 bg-white rounded-xl shadow-sm border mb-2">
             <div className="flex items-center space-x-2">
                 <input type="checkbox" className="w-5 h-5 text-purple-600"
                 // TODO: Add logic to toggle checkbox
