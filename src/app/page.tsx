@@ -6,9 +6,9 @@ export default function HomePage() {
   const routes = [
     { label: 'Login', path: '/auth/login' },
     { label: 'Register', path: '/auth/register' },
-    { label: 'All Todos', path: '/todos/all-todos' },
+    { label: 'All Todos', path: '/todos' },
     { label: 'Todo Detail (ID: 1)', path: '/todos/1' },
-    { label: 'All Blogs', path: '/blogs/all-blogs' },
+    { label: 'All Blogs', path: '/blogs' },
     { label: 'Blog Detail (Slug: sample-slug)', path: '/blogs/sample-slug' },
   ]
 
